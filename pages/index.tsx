@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import {Inter} from 'next/font/google'
 import {NextPage} from "next";
 import Header from "@/components/Header";
+// @ts-ignore
 import Hero from "@/components/Hero";
+// @ts-ignore
 import About from "@/components/About";
-
-const inter = Inter({subsets: ['latin']})
 
 const Home: NextPage = () => {
     return (
@@ -18,13 +17,13 @@ const Home: NextPage = () => {
 
                 <Header/>
 
-                { /* Hero */}
-                <section id={"hero"} className="snap-start">
+                <section id={"hero"} className={"snap-start"}>
                     <Hero/>
                 </section>
 
-                { /* About */}
-                <About />
+                <section id={"#about"} className={"snap-start"}>
+                    <About/>
+                </section>
 
                 { /* Experience */}
 
