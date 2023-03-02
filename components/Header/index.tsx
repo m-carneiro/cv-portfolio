@@ -28,10 +28,10 @@ const Header = ({}: Props) => {
                     <SocialIcon url={"https://www.linkedin.com/in/mtscarneiro23/"}
                                 target={"_blank"} fgColor={"gray"}
                                 bgColor={"transparent"}/>
-                    <SocialIcon url={"https://www.linkedin.com/in/mtscarneiro23/"}
+                    <SocialIcon url={"https://twitter.com/mtscarcrf"}
                                 target={"_blank"} fgColor={"gray"}
                                 bgColor={"transparent"}/>
-                    <SocialIcon url={"https://www.linkedin.com/in/mtscarneiro23/"}
+                    <SocialIcon url={"https://www.instagram.com/entwicklersec/"}
                                 target={"_blank"} fgColor={"gray"}
                                 bgColor={"transparent"}/>
 
