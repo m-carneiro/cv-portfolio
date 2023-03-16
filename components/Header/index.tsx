@@ -1,6 +1,7 @@
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 import React from "react";
 import {SocialIcon} from "react-social-icons";
+import Link from "next/link";
 
 type Props = {}
 
@@ -8,7 +9,6 @@ const Header = ({}: Props) => {
     return (
         <>
             <header className={"sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center"}>
-                {/* Social Icons */}
                 <motion.div
                     initial={{
                         x: -500,
@@ -37,32 +37,38 @@ const Header = ({}: Props) => {
 
                 </motion.div>
 
-                {/* Nav */}
-                <motion.div
-                    initial={{
-                        x: 500,
-                        opacity: 0,
-                        scale: 0.5
-                    }}
-                    animate={{
-                        x: 0,
-                        opacity: 1,
-                        scale: 1
-                    }}
-                    transition={{
-                        duration: 1
-                    }}
+                <Link href="#contact-me">
+                    <motion.div
+                        initial={{
+                            x: 500,
+                            opacity: 0,
+                            scale: 0.5
+                        }}
+                        animate={{
+                            x: 0,
+                            opacity: 1,
+                            scale: 1
+                        }}
+                        transition={{
+                            duration: 1
+                        }}
 
-                    className={"flex flex-row items-center text-gray-300 cursor-pointer"}>
-                    <SocialIcon className={"cursor-pointer"}
+                        className={"flex flex-row items-center text-gray-300 cursor-pointer"}>
+
+                        <div>
+                            <SocialIcon
+                                className={"cursor-pointer"}
                                 network={"email"}
-                                target={"_blank"} fgColor={"gray"}
+                                fgColor={"gray"}
                                 bgColor={"transparent"}/>
 
-                    <p className={"uppercase hidden md:inline-flex text-sm text-gray-400"}>
-                        Get In Touch
-                    </p>
-                </motion.div>
+                            <p className={"uppercase hidden md:inline-flex text-sm text-gray-400"}>
+                                Get In Touch
+                            </p>
+                        </div>
+
+                    </motion.div>
+                </Link>
             </header>
         </>
     )
