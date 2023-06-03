@@ -23,7 +23,7 @@ const Projects = ({}: Props) => {
                     Projects
                 </h3>
 
-                <div className={"relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#99FF33]/80"}>
+                <div className={"relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#99FF33]/80"}>
                     {projects.map((project, index) => (
                         <div
                             className={"w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"}>
@@ -39,7 +39,7 @@ const Projects = ({}: Props) => {
                                 }}
                                 viewport={{once: true}}
                                 className={"h-32 w-32 mx-auto"}
-                                src="https://cdn.discordapp.com/attachments/1056264121240277032/1083154585876693002/image.png"
+                                src="https://w7.pngwing.com/pngs/119/342/png-transparent-logo-netflix-nasdaq-nflx-brand-television-copywriter-floor-television-text-rectangle.png"
                                 alt=""
                             />
 
@@ -54,7 +54,7 @@ const Projects = ({}: Props) => {
                                     Netflix 2.0 app that has a Log in and Log Out Authentication with Google. it has a
                                     beautiful Home Screen with all the movies looking Just like Netflix. There is also a
                                     subscription page where you can see your active monthly subscription. We also use
-                                    Stripe Payments for the monthl) Netfix Subscriptions!
+                                    Stripe Payments for the monthly) Netflix Subscriptions!
                                 </p>
                             </div>
                         </div>
