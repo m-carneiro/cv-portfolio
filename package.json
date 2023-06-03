@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.17",
+    "@heroicons/react": "^2.0.18",
     "@types/react": "18.2.2",
     "@types/node": "18.16.6",
     "next": "13.3.4",
