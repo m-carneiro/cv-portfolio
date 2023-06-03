@@ -10,8 +10,9 @@ const Hero = ({}: Props) => {
     const [text, count] = useTypewriter({
         words: [
             "Hello, My Name is Matheus",
-            "Yes-I-love-coffee.tsx",
-            "<ButILoveToCodeMore />"],
+            "Let's make everything secured",
+            "Leading teams to the next level",
+            ],
         loop: true,
         delaySpeed: 2000
     })
@@ -21,8 +22,8 @@ const Hero = ({}: Props) => {
             <BackgroundCircles/>
             <Image className={"relative rounded-full h-32 w-32 mx-auto object-cover"} src={profilePic} alt={"Me"}/>
             <div className={"z-20"}>
-                <h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[10px]"}>FullStack Software Engineer</h2>
-                <h1 className={"text-4xl lg:text-5xl font-semibold px-10"}>
+                <h2 className={"text-sm uppercase text-gray-500 pb-2 tracking-[10px]"}>Application Security Specialist</h2>
+                <h1 className={"text-2xl lg:text-5xl font-semibold px-10"}>
                     <span className={"mr-3"}>{text}</span>
                     <Cursor cursorColor={"#ebf20c"}/>
                 </h1>

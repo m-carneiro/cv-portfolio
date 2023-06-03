@@ -21,19 +21,19 @@ const ContactMe = () => {
             <div
                 className={"h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"}>
                 <h3 className={"absolute top-12 uppercase tracking-[20px] text-2xl text-gray-500"}>
-                    Contact Me
+                    Contact
                 </h3>
 
                 <div className={"flex flex-col space-y-10"}>
                     <h4 className={"text-4xl font-semibold text-center"}>
                         I've got just what you need.{" "}
-                        <span className={"decoration-[#99FF33]/50 underline"}>Lets talk.</span>
+                        <span className={"decoration-[#99FF33]/50 underline"}>Let's talk.</span>
                     </h4>
 
                     <div className={"space-y-10 "}>
                         <div className={"flex items-center space-x-5 justify-center"}>
                             <PhoneIcon className={"text-[#99FF33] h-7 w-7 animate-pulse"}/>
-                            <p className={"text-2xl"}>+5521972604707</p>
+                            <p className={"text-2xl"}>+55 21 972604707</p>
                         </div>
 
                         <div className={"flex items-center space-x-5 justify-center"}>
