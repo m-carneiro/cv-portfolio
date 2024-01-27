@@ -1,0 +1,51 @@
+[
+    {
+        "imageUrl": "https://s3-symbol-logo.tradingview.com/stoneco--600.png",
+        "title": "Application Security Tech Lead",
+        "org":  "Stone.co",
+        "timestamp": "MAY 2023 - NOWADAYS",
+        "description": "Leading a team focused on secure development, application vulnerability management, CI/CD automation for security throughout the Stone.co environment. Management of an internal SAST, SCA and IaC tool where the team, in addition to maintaining this tool, also creates new features according to business needs. We handle the process of managing application vulnerabilities coming from all sources capable of identifying them such as Red Team, QA, Threat Intel and internal tools. Creation of a Security Champions program, from defining the visual identity to training developers to be security guardians in their teams and tribes, helping the AppSec team with security implementations and definitions. People management within their senioritis and scopes, assistance for professional growth and knowledge expansion."
+    },
+    {
+        "imageUrl": "https://grandesnomesdapropaganda.com.br/wp-content/uploads/2023/09/Sem-título-sss.jpg",
+        "title": "Application Security Specialist",
+        "org":  "Via Varejo / Grupo Casas Bahia",
+        "timestamp": "OCTOBER 2022 - MAY 2023",
+        "description": "Definition of security for pipeline and applications of VIA business units such as: Casas Bahia, Ponto, extra.com.br, banQi, bartira, district, ASAP log and I9XP. Implementation of secure CI/CD in GitHub Actions, Azure DevOps, OpenShift 4, AKS and containers. Promotion of the AppSec culture in the area oF ​application development through a Security Champions program. Use of SCA/SAST/DAST/MAST and IaC tools to improve and implement security in source code. Monitoring and modeling of vulnerabilities and security alerts. Vulnerability Management with Vulcan.io and Defect Dojo. Security maturity monitoring with OWASP SAMM. RASP implementation and mobile code obfuscation. Automation applications in java, kotlin, golang."
+    },
+    {
+        "imageUrl": "https://static.wixstatic.com/media/cf03c7_e2aeb6a863bd4b659ef5e4f8d11f1b56~mv2.png/v1/fill/w_420,h_280,al_c,lg_1,q_85/cf03c7_e2aeb6a863bd4b659ef5e4f8d11f1b56~mv2.png",
+        "title": "Senior Application Security Engineer",
+        "org":  "Grupo SBF",
+        "timestamp": "APRIL 2022 - OCTOBER 2022",
+        "description": "Implementation of pipeline and cloud security for all business units: Centauro, FISIA [Nike], NWB, FitDance, X3M and OneFan. Implementation of secure CI/CD (Jenkins, GitHub Actions, ArgoCD, GCP, k8s, containers). Promotion of the AppSec culture in the area of ​​application development. Use of SCA/SAST/DAST/MAST and IaC tools to improve and implement security in source code. PrismaCloud CWPP implementation. Monitoring and modeling of vulnerabilities and security alerts. Vulnerability Management with DefectDojo and Vulcan.io. Security maturity monitoring with OWASP SAMM. Pentesting gray and white box also using BURP and other tools. Automations in python, java and bash."
+    },
+    {
+        "imageUrl": "https://static.wixstatic.com/media/cf03c7_e2aeb6a863bd4b659ef5e4f8d11f1b56~mv2.png/v1/fill/w_420,h_280,al_c,lg_1,q_85/cf03c7_e2aeb6a863bd4b659ef5e4f8d11f1b56~mv2.png",
+        "title": "Senior Full Stack Software Engineer",
+        "org":  "Grupo SBF",
+        "timestamp": "OCTOBER 2021 - APRIL 2022",
+        "description": "Bug fixes, creation of endpoints, creation of components and hotfixes in the layouts on the sites centauro.com.br/ and nike.com.br/. \nAPI development in Kotlin, C#, Python and nodejs.\nFront-end development in Reactjs and Nextjs.\nNew REST endpoints using Spring Boot, .NET and Node, using TDD, Kanban, Clean Code and SOLID as tools.\nUsing DevOps with Docker, Kubernetes, GCP, Salesforce, AWS, Argo CD and Aioros. Messaging with Kafka and RabbitMQ.\nDecisions on secure software architecture and how to create solutions for integrating FISIA (Nike BR) within the SBF ecosystem.\nSQL server administration.\nCreated the application that sends emails with the entire purchase flow of Nike products.\nCreated the application that triggers satisfaction surveys (NPS) via WhatsApp for Centauro."
+    },
+    {
+        "imageUrl": "https://www.outedg.com.br/ativos/logo-branca.svg",
+        "title": "Java Developer",
+        "org":  "Outedg",
+        "timestamp": "MAY 2021 - OCTOBER 2021",
+        "description": "API development in Java. Connection to the TISS / ANS service. Creation of new REST endpoints using Spring Boot. Maintenance in systems with Java 11 using as software architecture DDD, TDD with JUnit, Scrum, Clean Code with Hibernate and SOLID and XHTML pages using JSF and Primefaces. All in the Linux environment. Using DevOps means to implement development, approval and production environments through automated pipelines in Azure. ORACLE and DB2 DB administration."
+    },
+    {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oZeqIeOd1F0R12FO1w3NESeGT5NKybysRw&usqp=CAU",
+        "title": "Java Developer",
+        "org":  "Freelancing",
+        "timestamp": "OCTOBER 2017 - OCTOBER 2019",
+        "description": "Creation of inventory control for small businesses and logistics companies. Inventory control in Java. View creation with JavaFX. Clean Code and SOLID, Hibernate, JPA"
+    },
+    {
+        "imageUrl": "https://yt3.googleusercontent.com/ytc/AIf8zZTG_l3t4pqCON3wuL8JOt9OLIDnaYzpIERZurWVEA=s900-c-k-c0x00ffffff-no-rj",
+        "title": "Infraestructure Support",
+        "org":  "Exército Brasileiro / Brazilian Army",
+        "timestamp": "MARCH 2016 - MAY 2017",
+        "description": "Data storage and management with file system organization. Handling of logical volumes via Logical Volume Manager (LVM). Automatization in Java to control documentation related to the payment of personnel. Routine automations with bash to insert new data about address, bank account and other military information related to salary."
+    }
+]
