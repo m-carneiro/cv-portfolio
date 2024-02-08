@@ -1,13 +1,13 @@
 [
     {
-        "imageUrl": "",
-        "title": "",
-        "description": ""
+        "imageUrl": "https://static.vecteezy.com/ti/vetor-gratis/t2/10994232-nike-logotipo-design-de-roupas-pretas-icone-abstrato-futebol-ilustracaoial-com-fundo-branco-gratis-vetor.jpg",
+        "title": "Transactional Email Sender @ GRUPO SBF",
+        "description": "When I was in Grupo SBF, I was the creator of an app that was responsible for sending transactional emails to all Nike clients where it tracked down all the orders statuses and sent emails when the buying was confirmed, when the product was sent, when it was on transport and when the product arrived. I was responsible for all coding and architecture design."
     },
     {
-        "imageUrl": "",
-        "title": "",
-        "description": ""
+        "imageUrl": "https://checkmarx.com/wp-content/uploads/2021/10/checkmarx-logo-square.png",
+        "title": "Implemented a CI/CD SAST program @ Via Varejo",
+        "description": "I was responsible for implementing a CI/CD SAST program at Via Varejo, where I was responsible for the architecture design and the implementation of the program. I was responsible for the integration of the Checkmarx tool with the GitHub Actions pipeline and the implementation of the security gates."
     },
     {
         "imageUrl": "",

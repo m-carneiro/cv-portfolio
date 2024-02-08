@@ -1,9 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 
-type Props = {}
-
-const About = ({}: Props) => {
+export default function About() {
     return (
         <>
             <motion.div
@@ -29,7 +27,7 @@ const About = ({}: Props) => {
                     }}
                     src={"https://i.postimg.cc/4Nqc7cPj/eu.jpg"}
                     alt={"Also me"}
-                    className={"-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:2-64 md:h-96 xl:w-[500px] xl:h-[600px]"}/>
+                    className={"-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-full md:2-64 md:h-96 xl:w-[500px] xl:h-[500px]"}/>
 
                 <div className={"space-y-10 px-0 md:px-10"}>
                     <h4 className={"text-4xl font-semibold "}>Here is a <span
@@ -50,5 +48,3 @@ const About = ({}: Props) => {
         </>
     )
 }
-
-export default About
