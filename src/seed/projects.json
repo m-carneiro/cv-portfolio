@@ -1,35 +1,42 @@
 [
     {
+        "id": "sast-via",
         "imageUrl": "https://checkmarx.com/wp-content/uploads/2021/10/checkmarx-logo-square.png",
         "title": "Implemented a fully SAST program @ Via Varejo",
         "description": "I was responsible for implementing a CI/CD SAST program at Via Varejo, where I was responsible for the architecture design and the implementation of the program. I was responsible for the integration of the Checkmarx tool with the GitHub Actions pipeline and the implementation of the security gates."
     },
     {
+        "id": "secret-detection",
         "imageUrl": "https://avatars.githubusercontent.com/u/8750624?s=280&v=4",
         "title": "As a team leader, we built a secrets detection program @ Stone.co",
         "description": "I was responsible for leading a team that built a secrets detection program at Stone.co, where we were responsible for the architecture design and the implementation of the program. We were responsible for integrating all the secret scanning tooling inside an internal application that ran on top of pipelines."
     },
     {
+        "id": "campinho-digital",
+        "imageUrl": "https://avatars.githubusercontent.com/u/108235987?v=4?s=400",
+        "title": "Tech Leader @ Campinho Digital",
+        "description": "Technology branch of an NGO that teaches technology to kids in Brazil. My responsibility is to create software on demand to meet the needs of NGO partners, ensuring incoming financial resources for the campaign. Additionally, I provide opportunities for students to participate in the development of solutions being created."
+    },
+    {
+        "id": "",
         "imageUrl": "",
         "title": "",
         "description": ""
     },
     {
-        "imageUrl": "",
-        "title": "",
-        "description": ""
+        "id": "agrigoldens-coin-hub",
+        "imageUrl": "../../public/images/ag.png",
+        "title": "Creation of a fully automated coin hub for Agrigoldens",
+        "description": "I created a fully automated digital coin hub for Agrigoldens, where I was responsible for the architecture as a whole and the application engineering. This project is making the agribusiness more digital and more efficient while connecting agriculture ecommerces through the use of this agri digital coin."
     },
     {
-        "imageUrl": "",
-        "title": "",
-        "description": ""
-    },
-    {
+        "id": "nike-transactional-email",
         "imageUrl": "https://static.vecteezy.com/ti/vetor-gratis/t2/10994232-nike-logotipo-design-de-roupas-pretas-icone-abstrato-futebol-ilustracaoial-com-fundo-branco-gratis-vetor.jpg",
         "title": "Transactional Email Sender @ Nike in GRUPO SBF",
         "description": "When I was in Grupo SBF, I was the creator of an app that was responsible for sending transactional emails to all Nike clients where it tracked down all the orders statuses and sent emails when the buying was confirmed, when the product was sent, when it was on transport and when the product arrived. I was responsible for all coding and architecture design."
     },
     {
+        "id": "nps-survey",
         "imageUrl": "https://cdn.e-tudo.net/wp-content/uploads/2012/11/lojas-centauro-esportes--300x300.jpg",
         "title": "Created an automatic NPS survey @ Centauro in GRUPO SBF",
         "description": "Whenever a product is succesfully delivered to a client, the system sends an email to the client asking for a NPS survey through WhatsApp or SMS. I was responsible for the architecture design and the implementation of the system."

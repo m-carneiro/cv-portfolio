@@ -1,3 +1,4 @@
+'use client';
 import { motion } from "framer-motion";
 import Skill from "./Skill";
 
@@ -6,34 +7,42 @@ export default function Skills() {
     {
       language: "java",
       proficiency: "100%",
+      frameworks: ["spring", "spring boot", "spring cloud", "spring security"]
     },
     {
       language: "typescript",
       proficiency: "100%",
+      frameworks: ["react", "nextjs", "express", "nestjs"]
     },
     {
       language: "go",
       proficiency: "100%",
+      frameworks: ["gin", "fiber", "echo"]
     },
     {
       language: "python",
       proficiency: "100%",
+      frameworks: ["flask", "django", "fastapi"]
     },
     {
       language: "rust",
       proficiency: "30%",
+      frameworks: ["actix", "rocket", "warp"]
     },
     {
       language: "SAST",
       proficiency: "100%",
+      frameworks: ["fortify", "checkmarx", "veracode"]
     },
     {
       language: "DAST",
       proficiency: "100%",
+      frameworks: ["burp", "tenable", "acunetix"]
     },
     {
       language: "Pentest",
       proficiency: "100%",
+      frameworks: ["nmap", "metasploit", "sqlmap", "..."]
     },
   ];
 
@@ -72,6 +81,7 @@ export default function Skills() {
         <div className={"grid grid-cols-4 gap-5 "}>
           {skills.map((skill, index) => (
             <Skill
+              frameworks={skill.frameworks}
               directionLeft={index % 2 === 0}
               key={index}
               language={skill.language}
